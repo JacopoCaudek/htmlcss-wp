@@ -54,39 +54,50 @@ nav a.frecciagiu::after {
     content: "&#9662";
 }
 /* INIZIO ASIDE SINISTRA */
-
-.up ul {
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
 h6 {
     font-size: 20px;
+    color: brown;
+}
+
+.left ul {
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+}
+.left a {
+    color: green;
+    
 }
 
 .left {
     text-align: left;
-    padding-left: 10px;
     float: left;
     width: 20%;
 }
 
-
-.up {
-    background-color: white;
-}
-
-.middle {
-    background-color: white;
-    margin-top: 20px;
+.padding {
     padding: 30px;
     text-align: left;
+    background-color: white;
 }
 
-.down {
-    background-color: white;
-    margin-top: 20px;
+.up {
+    /* background-color: white; */
 }
+
+.middle, .down {
+    /* background-color: white; */
+    margin-top: 20px;
+    /* padding: 30px;
+    text-align: left; */
+}
+
+/* .down { */
+    /* background-color: white; */
+    /* margin-top: 20px;
+} */
+
+
 /* INIZIO MAIN CENTRALE */
 main {
     background-color: white;
@@ -96,13 +107,31 @@ main {
     margin-right: 30px;
 }
 
-h2 {
 
+h2 {
+    padding: 30px;
+}
+
+main p {
+    padding: 30px;
 }
 /* INIZIO ASIDE DESTRA */
 .right {
     background-color: white;
     float: left;
     width: 20%;
+}
 
+.up1 {
+    padding: 10px;
+    display: inline-block;
+}
+
+.down1 {
+    margin-top: 20px
+}
+
+.down1 a {
+    font-size: 10px;
+    color: green;
 }
